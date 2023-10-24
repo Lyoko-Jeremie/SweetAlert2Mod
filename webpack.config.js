@@ -52,10 +52,10 @@ const config = {
         loader: 'ts-loader',
         exclude: ['/node_modules/'],
       },
-      // {
-      //   test: /\.css$/i,
-      //   use: [stylesHandler, 'css-loader'],
-      // },
+      {
+        test: /\.css$/i,
+        use: [stylesHandler, 'css-loader'],
+      },
       // {
       //   test: /\.s[ac]ss$/i,
       //   use: [stylesHandler, 'css-loader', 'sass-loader'],
