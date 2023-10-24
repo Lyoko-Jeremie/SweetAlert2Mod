@@ -8,6 +8,17 @@ the `window.modSweetAlert2Mod.fire()` === `Swal.fire()` , the `window.modSweetAl
 
 ## how to use
 
+```json lines
+{
+  "dependenceInfo": [
+    {
+      "modName": "SweetAlert2Mod",
+      "version": "^1.0.0"
+    }
+  ]
+}
+```
+
 example :
 
 ```js
