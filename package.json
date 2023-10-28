@@ -12,7 +12,7 @@
     "build:src:ts": "tsc -p ./src/tsconfig.json",
     "build:webpack": "webpack -c ./webpack.config.js"
   },
-  "packageManager": "yarn@3.4.1",
+  "packageManager": "yarn@4.0.0",
   "dependencies": {
     "@sweetalert2/themes": "^5.0.15",
     "json5": "^2.2.3",
